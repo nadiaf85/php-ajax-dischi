@@ -104,9 +104,9 @@ $disc = [
                 foreach($disc as $song){
                     echo '<div class="locandina">';
                         echo '<img src="'.$song["poster"].'"/>';
-                        echo '<h4 class="album_title" >'.$song["title"].'</h4>';
-                        echo '<h5 class="album_author" >'.$song["author"].'</h5>';
-                        echo '<h6 class="album_year" >'.$song["year"].'</h6>';
+                        echo '<h4>'.$song["title"].'</h4>';
+                        echo '<h5>'.$song["author"].'</h5>';
+                        echo '<h6>'.$song["year"].'</h6>';
                     echo '</div>';
                 }
             ?>
